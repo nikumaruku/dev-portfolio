@@ -13,12 +13,12 @@ const Skills = () => {
   return (
     <div
       name="skills"
-      className="w-full min-h-screen bg-gradient-to-r from-indigo-200 via-red-200 to-yellow-100 text-gray-300"
+      className="w-full h-300 bg-gradient-to-r from-indigo-200 via-red-200 to-yellow-100 text-gray-300  py-8"
     >
       {/* Container */}
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full ">
         <div>
-          <p className="text-4xl font-bold inline border-b-4 border-pink-600 text-black ">
+          <p className="text-4xl font-bold inline border-b-4 border-pink-600 text-black  ">
             Skills
           </p>
           {/* <p className="py-4 text-black">

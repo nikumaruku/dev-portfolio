@@ -7,7 +7,7 @@ const Education = () => {
       name="education"
       className=" w-full min-h-screen bg-gradient-to-r from-indigo-200 via-red-200 to-yellow-100 background-animation flex flex-col items-center justify-center font-poppins"
     >
-      <div className="max-w-[1000px] mx-auto flex flex-col justify-center w-full h-full">
+      <div className="max-w-[1000px] mx-auto flex flex-col justify-center w-full h-full ">
         <div className="pb-8 pl-4">
           <p className=" text-4xl font-bold inline border-b-4 border-pink-600 text-black my-5">
             Education
