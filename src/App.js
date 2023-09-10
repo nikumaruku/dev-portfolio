@@ -16,7 +16,6 @@ function App() {
       <Education />
       <Skills />
       <Work />
-      <Contact />
       <Socials/>
     </div>
   );
