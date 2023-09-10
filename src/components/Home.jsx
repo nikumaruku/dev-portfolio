@@ -46,6 +46,7 @@ const Home = () => {
             web applications.
           </span>
         </p>
+        
         {/* Socials */}
         {isMobile && (
           <div className="grid grid-cols-2 m-0">
@@ -83,7 +84,6 @@ const Home = () => {
             </button>
           </div>
         )}
-        {/* <img src={OnePiece}/> */}
       </div>
     </div>
   );
