@@ -16,10 +16,15 @@ const About = () => {
           </div>
         </div>
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4 ">
-          <div className="w-[95%] max-w-screen-md sm:text-center text-4xl font-bold border-4 p-2 line border-doubled border-black">
-            <img src={ProfilePicture} alt="Picture of Nik Syahmi" className="height"  />
+          <div className="w-[95%] max-w-screen-md sm:text-center text-4xl font-bold flex justify-center items-center">
+            <img
+              src={ProfilePicture}
+              alt="Picture of Nik Syahmi"
+              className="h-60 w-60 border-4 border-doubled border-black mx-auto"
+            />
             {/* <p className='text-black'>Hi. I am Nik Syahmi, nice to meet you. Please take a look around.</p> */}
           </div>
+
           <div className="w-[95%] max-w-screen-md bg-white shadow-md rounded p-8 my-3 hover:scale-110 duration-500 border-solid border-2 border-black">
             <p className="text-black">
               I am passionate about building excellent software that improves
