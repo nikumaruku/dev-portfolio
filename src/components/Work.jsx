@@ -16,7 +16,7 @@ const Work = () => {
           <p className="text-4xl font-bold inline border-b-4 border-pink-600 text-black">
             Work
           </p>
-          {/* <p className="py-6 text-black">Check out some of my recent work</p> */}
+          <p className="py-6 text-black">Check out some of my recent works!</p>
         </div>
 
         {/* container for projects */}
@@ -45,14 +45,14 @@ const Work = () => {
                     </button>
                   </a>
                   {/* eslint-disable-next-line */}
-                  <a href={item.live} target="_blank">
+                  {/* <a href={item.live} target="_blank">
                     <button
                       className="text-center rounded-lg px-4 py-3 m-2
                        bg-white text-gray-700 font-bold text-lg"
                     >
                       Live
                     </button>
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>

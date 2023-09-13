@@ -13,7 +13,7 @@ const Skills = () => {
   return (
     <div
       name="skills"
-      className="w-full h-300 bg-gradient-to-r from-indigo-200 via-red-200 to-yellow-100 text-gray-300  py-8"
+      className="w-full sm:h-screen bg-gradient-to-r from-indigo-200 via-red-200 to-yellow-100 text-gray-300 py-8"
     >
       {/* Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full ">
@@ -21,9 +21,9 @@ const Skills = () => {
           <p className="text-4xl font-bold inline border-b-4 border-pink-600 text-black  ">
             Skills
           </p>
-          {/* <p className="py-4 text-black">
-            These are the technologies I've worked with
-          </p> */}
+          <p className="py-4 text-black">
+            These are the technologies I've worked with:-
+          </p>
         </div>
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8 ">

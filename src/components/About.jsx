@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-full h-800 bg-gradient-to-r from-indigo-200 via-red-200 to-yellow-100 text-gray-300 "
+      className="w-full sm:h-screen bg-gradient-to-r from-indigo-200 via-red-200 to-yellow-100 text-gray-300 "
     >
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] mx-auto p-2 flex flex-col justify-center w-full h-200 ">
@@ -26,30 +26,35 @@ const About = () => {
           </div>
 
           <div className="w-[95%] max-w-screen-md bg-white shadow-md rounded p-8 my-3 hover:scale-110 duration-500 border-solid border-2 border-black">
-            <p className="text-black">
-              I am passionate about building excellent software that improves
-              the lives of those around me. I specialize in creating software
-              for clients ranging from individuals and small-businesses all the
-              way to large enterprise corporations. What would you do if you had
-              a software expert available at your fingertips?
+            <p className="text-black ">
+              I am a 22 years old, final year software engineering UPM student who loves
+              getting into the nitty-gritty of software development. This
+              passion of mine blooms during high school when I was tasked to
+              create a website by one of my closest friend as a mere challenge.
+              Little did I know, the 'challenge' is actually the beginning of my
+              wonderful journey into software development.
             </p>
           </div>
           <div className="w-[95%] max-w-screen-md bg-white shadow-md rounded p-8 my-3 hover:scale-110 duration-500 border-solid border-2 border-black">
             <p className="text-black">
-              I am passionate about building excellent software that improves
-              the lives of those around me. I specialize in creating software
-              for clients ranging from individuals and small-businesses all the
-              way to large enterprise corporations. What would you do if you had
-              a software expert available at your fingertips?
+              During my study in college, I was involved in various courseworks
+              which helped introduced me to the foundations of web development
+              in which we were tasked to build website using HTML, CSS and
+              Bootstrap. Fueled by curiosity, I ventured further and acquired
+              the skills to independently create websites using the MERN stack. I
+              found this stack to be exceedingly approachable for beginners,
+              thanks to the abundance of learning resources available online.
             </p>
           </div>
           <div className="w-[95%] max-w-screen-md bg-white shadow-md rounded p-8 my-3 hover:scale-110 duration-500 border-solid border-2 border-black">
             <p className="text-black">
-              I am passionate about building excellent software that improves
-              the lives of those around me. I specialize in creating software
-              for clients ranging from individuals and small-businesses all the
-              way to large enterprise corporations. What would you do if you had
-              a software expert available at your fingertips?
+              All in all, I believe there in so much more to discover and learn
+              in order for me to continue developing myself as a competent
+              developer. I also believe that it is very much necessary for me to
+              experience working in the real world scenario in which I can
+              collaborate with other 'sifus', which i believe will facilitate my
+              growth even more. I consider myself as an avid learner who will
+              and can definitely help and provide for others to grow as well.
             </p>
           </div>
         </div>
