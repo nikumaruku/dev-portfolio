@@ -46,39 +46,61 @@ const Home = () => {
             web applications.
           </span>
         </p>
-        
+
         {/* Socials */}
         {isMobile && (
           <div className="grid grid-cols-2 m-0">
-            <button className="rounded text-white group border-2 px-6 py-3 my-2 flex items-center bg-blue-600 hover:border-pink-600 justify-center ">
-              <Link to="about" smooth={true} duration={500} className="mr-3 font-bold">
+            <button className="rounded text-white group border-2 px-6 py-3 my-2 flex items-center bg-blue-600 hover:border-pink-600 justify-center">
+              <a
+                href="https://www.linkedin.com/in/nik-syahmi/"
+                className="mr-3 font-bold"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Linkedin
-              </Link>
+              </a>
               <span className="group-hover:rotate-180 duration-300 mr-3">
                 <FaLinkedin />
               </span>
             </button>
+
             <button className="text-white group border-2 px-6 py-3 my-2 flex items-center bg-gradient-to-r from-gray-700 via-gray-900 to-black hover:border-pink-600 justify-center ">
-              <Link to="about" smooth={true} duration={500} className="mr-3 font-bold">
+              <a
+                href="https://github.com/nikumaruku"
+                className="mr-3 font-bold"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Github
-              </Link>
-              <span className="group-hover:rotate-90 duration-300 mr-3">
+              </a>
+              <span className="group-hover:rotate-180 duration-300 mr-3">
                 <FaGithub />
               </span>
             </button>
+
             <button className="text-white group border-2 px-6 py-3 my-2 flex items-center bg-[#6fc2b0] hover:border-pink-600 justify-center ">
-              <Link to="about" smooth={true} duration={500} className="mr-3 font-bold">
+              <a
+                href="mailto:niksyahmiirfan01@gmail.com"
+                className="mr-3 font-bold"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Email
-              </Link>
-              <span className="group-hover:rotate-90 duration-300 mr-3 ">
+              </a>
+              <span className="group-hover:rotate-180 duration-300 mr-3">
                 <HiOutlineMail />
               </span>
             </button>
             <button className="text-white group border-2 px-6 py-3 my-2 flex items-center bg-[#565f69] hover:border-pink-600 justify-center ">
-              <Link to="about" smooth={true} duration={500} className="mr-3 font-bold">
+              <a
+                href="https://docs.google.com/document/d/1o9GXQ8hMCXnbH-aZ7g0iLjfMPC0Tq1za479A3dj0J0Y/edit?usp=sharing"
+                className="mr-3 font-bold"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Resume
-              </Link>
-              <span className="group-hover:rotate-90 duration-300 mr-3">
+              </a>
+              <span className="group-hover:rotate-180 duration-300 mr-3">
                 <BsFillPersonLinesFill />
               </span>
             </button>
