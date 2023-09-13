@@ -19,7 +19,7 @@ const About = () => {
           <div className="w-[95%] max-w-screen-md sm:text-center text-4xl font-bold flex justify-center items-center">
             <img
               src={ProfilePicture}
-              alt="Picture of Nik Syahmi"
+              alt="Nik Syahmi"
               className="h-60 w-60 border-4 border-doubled border-black mx-auto"
             />
             {/* <p className='text-black'>Hi. I am Nik Syahmi, nice to meet you. Please take a look around.</p> */}

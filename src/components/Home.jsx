@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from "react";
-// import { HiArrowNarrowRight } from "react-icons/hi";
-import { Link } from "react-scroll";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
