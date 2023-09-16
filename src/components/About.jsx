@@ -5,12 +5,12 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-full md:h-screen bg-gradient-to-r from-indigo-200 via-red-200 to-yellow-100 text-gray-300 border-2 border-black"
+      className="w-full md:h-screen bg-[#394867] text-gray-300 border-2 border-black"
     >
       <div className="flex flex-col justify-center items-center w-full h-full border-2 border-black  ">
         <div className="md:text-left pb-8 justify-center items-center border-2 border-black pt-4">
-          <p className="text-5xl md:text-4xl font-bold inline text-black">
-            About
+          <p className="text-5xl md:text-4xl font-bold inline text-[#9BA4B5]">
+            About Me
           </p>
         </div>
 
@@ -24,8 +24,8 @@ const About = () => {
             {/* <p className='text-black'>Hi. I am Nik Syahmi, nice to meet you. Please take a look around.</p> */}
           </div>
 
-          <div className="w-[95%] max-w-screen-md bg-white shadow-md rounded p-8 my-3 hover:scale-110 duration-500 border-solid border-2 border-black border-2 border-black ">
-            <p className="text-black ">
+          <div className="w-[95%] max-w-screen-md bg-[#212A3E] shadow-md rounded p-8 my-3 md:hover:scale-110 duration-500 border-solid border-2 border-black border-2 border-black ">
+            <p className="text-white ">
               I am a 22 years old, final year software engineering UPM student
               who loves getting into the nitty-gritty of software development.
               This passion of mine blooms during high school when I was tasked
@@ -34,8 +34,8 @@ const About = () => {
               beginning of my wonderful journey into software development.
             </p>
           </div>
-          <div className="w-[95%] max-w-screen-md bg-white shadow-md rounded p-8 my-3 hover:scale-110 duration-500 border-solid border-2 border-black border-2 border-black ">
-            <p className="text-black">
+          <div className="w-[95%] max-w-screen-md bg-[#212A3E] shadow-md rounded p-8 my-3 md:hover:scale-110 duration-500 border-solid border-2 border-black border-2 border-black ">
+            <p className="text-white">
               During my study in college, I was involved in various courseworks
               which helped introduced me to the foundations of web development
               in which we were tasked to build website using HTML, CSS and
@@ -45,8 +45,8 @@ const About = () => {
               thanks to the abundance of learning resources available online.
             </p>
           </div>
-          <div className="w-[95%] max-w-screen-md bg-white shadow-md rounded p-8 my-3 hover:scale-110 duration-500 border-solid border-2 border-black">
-            <p className="text-black">
+          <div className="w-[95%] max-w-screen-md bg-[#212A3E] shadow-md rounded p-8 my-3 md:hover:scale-110 duration-500 border-solid border-2 border-black">
+            <p className="text-white">
               All in all, I believe there in so much more to discover and learn
               in order for me to continue developing myself as a competent
               developer. I also believe that it is very much necessary for me to

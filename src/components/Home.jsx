@@ -22,18 +22,18 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="md:h-screen bg-gradient-to-r from-indigo-200 via-red-200 to-yellow-100 background-animation p-32 border-2 border-blue"
+      className="md:h-screen bg-[#212A3E] p-32 border-2 border-blue"
     >
       {/* Container */}
-      <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center text-center space-y-5 align-center h-full pb-0 border-2 border-blue bg-white md:bg-blue rounded-lg p-5 ">
-        <p className="text-[#102C57]">Hi, my name is</p>
-        <h1 className="text-6xl sm:text-7xl font-bold text-black hover:text-[#102C57] hover:scale-110 duration-500">
+      <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center text-center space-y-5 align-center h-full pb-0 border-2 border-blue bg-[#394867] md:bg-blue rounded-lg p-5 ">
+        <p className="text-white">Hi, my name is</p>
+        <h1 className="text-6xl sm:text-7xl font-bold text-[#9BA4B5] hover:text-[#102C57] hover:scale-110 duration-500">
           NIK SYAHMI IRFAN
         </h1>
-        <h2 className="text-3xl md:text-7xl font-sans font-semibold text-black hover:text-[#102C57] hover:scale-110 duration-300">
+        <h2 className="text-3xl md:text-7xl font-sans font-semibold text-white hover:text-[#102C57] hover:scale-110 duration-300">
           Bachelor of Software Engineering (Hons.)
         </h2>
-        <p className="text-[#8892b0] md:border-2 border-black">
+        <p className="text-white md:border-2 border-black">
           I’m a{" "}
           <span className="underline decoration-4 decoration-sky-500 font-semibold">
             self taught full-stack developer
@@ -47,8 +47,8 @@ const Home = () => {
 
         {/* Socials */}
         {isMobile && (
-          <div className="grid grid-cols-2 m-0">
-            <button className="rounded text-white group border-2 px-6 py-3 my-2 flex items-center bg-blue-600 hover:border-pink-600 justify-center">
+          <div className="grid grid-cols-2 pb-5">
+            <button className="rounded text-white group border-2 px-6 py-3 my-2 flex items-center bg-blue-600 hover:border-black justify-center">
               <a
                 href="https://www.linkedin.com/in/nik-syahmi/"
                 className="mr-3 font-bold"
