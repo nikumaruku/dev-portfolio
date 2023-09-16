@@ -21,17 +21,17 @@ const Home = () => {
   }, []);
 
   return (
-    <div name="home" className="md:h-screen bg-[#212A3E] pt-20 md:p-32">
+    <div name="home" className="md:h-screen bg-black pt-32 pb-12 md:p-32">
       {/* Container */}
-      <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center text-center space-y-5 align-center h-full pb-0 border-2 border-blue bg-[#394867] md:bg-blue rounded-lg p-5 ">
+      <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center text-center space-y-5 align-center h-full pb-0 border-2 border-blue bg-black md:bg-blue rounded-lg p-5 ">
         <p className="text-white">Hi, my name is</p>
-        <h1 className="text-6xl md:text-7xl font-bold text-[#9BA4B5] hover:text-[#102C57] hover:scale-110 duration-500">
+        <h1 className="text-6xl md:text-7xl font-bold text-[#9BA4B5] hover:text-white hover:scale-110 duration-500 outline-white">
           NIK SYAHMI IRFAN
         </h1>
         {/* <h2 className="text-sm md:text-7xl font-sans font-semibold text-white hover:text-[#102C57] hover:scale-110 duration-300">
           Bachelor of Software Engineering (Hons.)
         </h2> */}
-        <div className="flex justify-center items-center">
+        <div className="w-50 flex justify-center items-center hover:bg-white rounded-full">
           <img src={CoderBg} alt="" className="h-20 w-20" />
         </div>
         <p className="text-white text-sm md:border-2 border-black">
@@ -53,7 +53,7 @@ const Home = () => {
         {/* Socials */}
         {isMobile && (
           <div className="grid grid-cols-2 pb-5">
-            <button className="rounded text-white text-xs group border-2 px-6 py-3 my-2 flex items-center bg-blue-600 hover:border-black justify-center">
+            <button className="rounded text-white text-xs group border-2 px-6 py-3 my-2 flex items-center bg-gradient-to-r from-gray-700 via-gray-900 border-black hover:border-white justify-center">
               <a
                 href="https://www.linkedin.com/in/nik-syahmi/"
                 className="mr-3 font-bold"
@@ -67,7 +67,7 @@ const Home = () => {
               </span>
             </button>
 
-            <button className="text-white text-xs group border-2 px-6 py-3 my-2 flex items-center bg-gradient-to-r from-gray-700 via-gray-900 to-black hover:border-pink-600 justify-center ">
+            <button className="text-white text-xs group border-2 px-6 py-3 my-2 flex items-center bg-gradient-to-r from-gray-700 via-gray-900 border-black hover:border-white justify-center ">
               <a
                 href="https://github.com/nikumaruku"
                 className="mr-3 font-bold"
@@ -81,7 +81,7 @@ const Home = () => {
               </span>
             </button>
 
-            <button className="text-white text-xs group border-2 px-6 py-3 my-2 flex items-center bg-[#6fc2b0] hover:border-pink-600 justify-center ">
+            <button className="text-white text-xs group border-2 px-6 py-3 my-2 flex items-center bg-gradient-to-r from-gray-700 via-gray-900 border-black hover:border-white justify-center ">
               <a
                 href="mailto:niksyahmiirfan01@gmail.com"
                 className="mr-3 font-bold"
@@ -94,7 +94,7 @@ const Home = () => {
                 <HiOutlineMail />
               </span>
             </button>
-            <button className="text-white text-xs group border-2 px-6 py-3 my-2 flex items-center bg-[#565f69] hover:border-pink-600 justify-center ">
+            <button className="text-white text-xs group border-2 px-6 py-3 my-2 flex items-center bg-gradient-to-r from-gray-700 via-gray-900 border-black hover:border-white justify-center ">
               <a
                 href="https://docs.google.com/document/d/1o9GXQ8hMCXnbH-aZ7g0iLjfMPC0Tq1za479A3dj0J0Y/edit?usp=sharing"
                 className="mr-3 font-bold"

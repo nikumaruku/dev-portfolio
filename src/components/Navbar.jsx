@@ -8,7 +8,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-gradient-to-r from-indigo-200 via-red-200 to-yellow-100 text-black-300">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-white text-black-300">
       <div>
         <h1 className=" font-extrabold">niku.dev</h1>
       </div>
