@@ -20,7 +20,7 @@ const Work = () => {
         </div>
 
         {/* container for projects */}
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 border-2 border-white p-2 px-4">
           {/* Gird Item */}
           {project.map((item, index) => (
             <div

@@ -8,9 +8,19 @@ const About = () => {
       className="w-full md:h-screen bg-black text-gray-300 border-2 border-black"
     >
       <div className="flex flex-col justify-center items-center w-full h-full">
-        <div className="md:text-left pb-8 justify-center items-center pt-8">
+        {/* <div className="md:text-left pb-8 justify-center items-center pt-8">
           <p className="text-xl md:text-4xl font-bold inline text-[#9BA4B5]">
-            About Me
+            About
+          </p>
+          <p className="text-center text-sm text-[#9BA4B5]">Discover more about me!</p>
+        </div> */}
+
+        <div className="pt-8 pb-8 border-2 border-black flex flex-col justify-center items-center space-y-5">
+          <p className=" text-xl font-bold inline border-b-4 border-[#9BA4B5]-600 text-[#9BA4B5]">
+            About
+          </p>
+          <p className="text-center text-sm text-[#9BA4B5]">
+            Discover more about me!
           </p>
         </div>
 
@@ -48,13 +58,13 @@ const About = () => {
           <div className="w-[95%] max-w-screen-md bg-[#212A3E] shadow-md rounded p-8 my-3 md:hover:scale-110 duration-500 border-solid border-2 border-black">
             <p className="text-white text-xs text-center ">
               As fun as learning by yourself seems, I believe there in so much
-              more to discover and explore in order for me to continue developing
-              myself as a competent developer. I also believe that it is very
-              much necessary for me to experience working in the real world
-              scenario in which I can collaborate with other 'sifus', which i
-              believe will facilitate my growth even more. I consider myself as
-              an avid learner who will and can definitely help and provide for
-              others to grow as well.
+              more to discover and explore in order for me to continue
+              developing myself as a competent developer. I also believe that it
+              is very much necessary for me to experience working in the real
+              world scenario in which I can collaborate with other 'sifus',
+              which i believe will facilitate my growth even more. I consider
+              myself as an avid learner who will and can definitely help and
+              provide for others to grow as well.
             </p>
           </div>
         </div>

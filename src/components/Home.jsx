@@ -25,7 +25,7 @@ const Home = () => {
       {/* Container */}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center text-center space-y-5 align-center h-full pb-0 border-2 border-blue bg-black md:bg-blue rounded-lg p-5 ">
         <p className="text-white">Hi, my name is</p>
-        <h1 className="text-6xl md:text-7xl font-bold text-[#9BA4B5] hover:text-white hover:scale-110 duration-500 outline-white">
+        <h1 className="text-6xl md:text-7xl font-bold text-[#9BA4B5] hover:text-white">
           NIK SYAHMI IRFAN
         </h1>
         {/* <h2 className="text-sm md:text-7xl font-sans font-semibold text-white hover:text-[#102C57] hover:scale-110 duration-300">
