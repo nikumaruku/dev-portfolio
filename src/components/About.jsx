@@ -9,13 +9,13 @@ const About = () => {
     >
       <div className="flex flex-col justify-center items-center w-full h-full border-2 border-black  ">
         <div className="md:text-left pb-8 justify-center items-center border-2 border-black pt-4">
-          <p className="text-5xl md:text-4xl font-bold inline text-[#9BA4B5]">
+          <p className="text-xl md:text-4xl font-bold inline text-[#9BA4B5]">
             About Me
           </p>
         </div>
 
         <div className="max-w-[1000px] flex flex-col w-full lg:grid lg:grid-cols-2 lg:gap-8 p-4 border-2 border-white items-center  ">
-          <div className="w-[95%] max-w-screen-md sm:text-center text-4xl font-bold flex justify-center items-center border-2 border-black ">
+          <div className="w-[90%] max-w-screen-md flex justify-center items-center">
             <img
               src={ProfilePicture}
               alt="Nik Syahmi"
@@ -25,7 +25,7 @@ const About = () => {
           </div>
 
           <div className="w-[95%] max-w-screen-md bg-[#212A3E] shadow-md rounded p-8 my-3 md:hover:scale-110 duration-500 border-solid border-2 border-black border-2 border-black ">
-            <p className="text-white ">
+            <p className="text-white text-xs text-center ">
               I am a 22 years old, final year software engineering UPM student
               who loves getting into the nitty-gritty of software development.
               This passion of mine blooms during high school when I was tasked
@@ -35,7 +35,7 @@ const About = () => {
             </p>
           </div>
           <div className="w-[95%] max-w-screen-md bg-[#212A3E] shadow-md rounded p-8 my-3 md:hover:scale-110 duration-500 border-solid border-2 border-black border-2 border-black ">
-            <p className="text-white">
+            <p className="text-white text-xs text-center ">
               During my study in college, I was involved in various courseworks
               which helped introduced me to the foundations of web development
               in which we were tasked to build website using HTML, CSS and
@@ -46,7 +46,7 @@ const About = () => {
             </p>
           </div>
           <div className="w-[95%] max-w-screen-md bg-[#212A3E] shadow-md rounded p-8 my-3 md:hover:scale-110 duration-500 border-solid border-2 border-black">
-            <p className="text-white">
+            <p className="text-white text-xs text-center ">
               All in all, I believe there in so much more to discover and learn
               in order for me to continue developing myself as a competent
               developer. I also believe that it is very much necessary for me to

@@ -11,12 +11,12 @@ const Work = () => {
       name="work"
       className="w-full md:h-screen text-gray-300 bg-gradient-to-r from-indigo-200 via-red-200 to-yellow-100"
     >
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+      <div className="max-w-[1000px] mx-auto p-10 flex flex-col justify-center w-full h-full">
         <div className="border-2 border-black flex flex-col justify-center items-center space-y-5 mb-5">
-          <p className="text-4xl font-bold inline border-b-4 border-pink-600 text-black">
+          <p className="text-xl font-bold inline border-b-4 border-pink-600 text-black">
             Work
           </p>
-          <p className="text-black">Check out some of my recent works!</p>
+          <p className="text-black text-sm">Check out some of my recent works!</p>
         </div>
 
         {/* container for projects */}
