@@ -11,10 +11,7 @@ import Mongo from "../assets/mongo.png";
 
 const Skills = () => {
   return (
-    <div
-      name="skills"
-      className="w-full md:h-screen bg-black py-8"
-    >
+    <div name="skills" className="w-full md:h-screen bg-black py-8 pb-4 border-2 border-white">
       {/* Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center items-center w-full h-full ">
         <div className="border-2 border-black flex flex-col justify-center items-center space-y-5">
@@ -24,18 +21,18 @@ const Skills = () => {
           <p className="text-black text-sm text-white pb-3">My Tech Stack</p>
         </div>
 
-        <div className="w-full grid grid-cols-2 md:grid-cols-4 gap-4 text-center p-6 border-2 border-white">
-          <div className="w-[90%] max-w-screen-md bg-white shadow-md rounded p-8 my-3 md:hover:scale-110 duration-500 hover:bg-black text-black hover:text-white ">
+        <div className="w-full flex flex-wrap justify-center items-center text-center p-6 items-center">
+          <div className="w-[50%] max-w-screen-md bg-black shadow-md rounded p-5 my-3 md:hover:scale-110 duration-500 hover:bg-black text-black hover:text-white ">
             <img className="w-10 md:w-20 mx-auto" src={HTML} alt="HTML icon" />
             <p className="my-4 font-bold">HTML</p>
             <p className="text-xs">Intermediate</p>
           </div>
-          <div className="w-[90%] max-w-screen-md bg-white shadow-md rounded p-8 my-3 md:hover:scale-110 duration-500 hover:bg-black text-black hover:text-white">
+          <div className="w-[50%] max-w-screen-md bg-black shadow-md rounded p-5 my-3 md:hover:scale-110 duration-500 hover:bg-black text-black hover:text-white">
             <img className="w-10 md:w-20 mx-auto" src={CSS} alt="HTML icon" />
             <p className="my-4 font-bold">CSS</p>
             <p className="text-xs">Intermediate</p>
           </div>
-          <div className="w-[90%] max-w-screen-md bg-white shadow-md rounded p-8 my-3 md:hover:scale-110 duration-500 hover:bg-black text-black hover:text-white">
+          <div className="w-[50%] max-w-screen-md bg-black shadow-md rounded p-5 my-3 md:hover:scale-110 duration-500 hover:bg-black text-black hover:text-white">
             <img
               className="w-10 md:w-20 mx-auto"
               src={JavaScript}
@@ -44,7 +41,7 @@ const Skills = () => {
             <p className="my-4 font-bold">JavaScript</p>
             <p className="text-xs">Intermediate</p>
           </div>
-          <div className="w-[90%] max-w-screen-md bg-white shadow-md rounded p-8 my-3 md:hover:scale-110 duration-500 hover:bg-black text-black hover:text-white">
+          <div className="w-[50%] max-w-screen-md bg-black shadow-md rounded p-5 my-3 md:hover:scale-110 duration-500 hover:bg-black text-black hover:text-white">
             <img
               className="w-10 md:w-20 mx-auto"
               src={ReactImg}
@@ -53,7 +50,7 @@ const Skills = () => {
             <p className="my-4 font-bold">React.js</p>
             <p className="text-xs">Intermediate</p>
           </div>
-          <div className="w-[90%] max-w-screen-md bg-white shadow-md rounded p-8 my-3 md:hover:scale-110 duration-500 hover:bg-black text-black hover:text-white">
+          <div className="w-[50%] max-w-screen-md bg-black shadow-md rounded p-5 my-3 md:hover:scale-110 duration-500 hover:bg-black text-black hover:text-white">
             <img
               className="w-10 md:w-20 mx-auto"
               src={GitHub}
@@ -62,17 +59,17 @@ const Skills = () => {
             <p className="my-4 font-bold">Github</p>
             <p className="text-xs">Intermediate</p>
           </div>
-          <div className="w-[90%] max-w-screen-md bg-white shadow-md rounded p-8 my-3 md:hover:scale-110 duration-500 hover:bg-black text-black hover:text-white">
+          <div className="w-[50%] max-w-screen-md bg-black shadow-md rounded p-5 my-3 md:hover:scale-110 duration-500 hover:bg-black text-black hover:text-white">
             <img className="w-10 md:w-20 mx-auto" src={Node} alt="HTML icon" />
             <p className="my-4 font-bold">Node.js</p>
             <p className="text-xs">Beginner</p>
           </div>
-          <div className="w-[90%] max-w-screen-md bg-white shadow-md rounded p-8 my-3 md:hover:scale-110 duration-500 hover:bg-black text-black hover:text-white">
+          <div className="w-[50%] max-w-screen-md bg-black shadow-md rounded p-5 my-3 md:hover:scale-110 duration-500 hover:bg-black text-black hover:text-white">
             <img className="w-10 md:w-20 mx-auto" src={Mongo} alt="HTML icon" />
             <p className="my-4 font-bold">MongoDB</p>
             <p className="text-xs">Beginner</p>
           </div>
-          <div className="w-[90%] max-w-screen-md bg-white shadow-md rounded p-8 my-3 md:hover:scale-110 duration-500 hover:bg-black text-black hover:text-white">
+          <div className="w-[50%] max-w-screen-md bg-black shadow-md rounded p-5 my-3 md:hover:scale-110 duration-500 hover:bg-black text-black hover:text-white">
             <img
               className="w-10 md:w-20 mx-auto"
               src={Tailwind}

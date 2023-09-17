@@ -5,7 +5,7 @@ const Education = () => {
   return (
     <div
       name="education"
-      className=" w-full min-h-screen bg-black flex flex-col items-center justify-center font-poppins border-2 border-black pt-5"
+      className=" w-full min-h-screen bg-black flex flex-col items-center justify-center font-poppins border-2 border-white pt-5"
     >
       <div className="pb-8 border-2 border-black flex flex-col justify-center items-center space-y-5">
         <p className=" text-xl font-bold inline border-b-4 border-[#9BA4B5]-600 text-[#9BA4B5]">
