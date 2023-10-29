@@ -5,16 +5,16 @@ const Education = () => {
   return (
     <div
       name="education"
-      className=" w-full min-h-screen bg-black flex flex-col items-center justify-center font-poppins border-2 border-white pt-5"
+      className=" w-full min-h-screen bg-[#FCF5ED] flex flex-col items-center justify-center font-poppins border-2 border-white py-8"
     >
-      <div className="pb-8 border-2 border-black flex flex-col justify-center items-center space-y-5">
-        <p className=" text-xl font-bold inline border-b-4 border-[#9BA4B5]-600 text-[#9BA4B5]">
+      <div className="pb-8 flex flex-col justify-center items-center space-y-5">
+        <p className=" text-xl font-bold inline border-b-4 border-[#9BA4B5]-600 text-black">
           Education
         </p>
-        <p className="text-center text-sm text-[#9BA4B5]">My education journey!</p>
+        <p className="text-center text-sm text-black">My education journey! <br/>(Can you see it? 🤔)</p>
       </div>
 
-      <div className="w-[90%] max-w-screen-md bg-[#212A3E] hover:bg-white shadow-md rounded p-8 my-3 md:hover:scale-110 duration-500 border-dashed border-2 border-black">
+      <div className="w-[90%] max-w-screen-md bg-[#1F1717] hover:bg-white shadow-xl rounded-lg p-8 my-3 md:hover:scale-110 duration-500 border-dashed border-2 border-black">
         <div className="flex justify-center items-center mb-4">
           {/* <div className="w-100 h-100 bg-black rounded-full flex items-center justify-center text-white font-bold text-xs mr-4">
             2020
@@ -38,8 +38,10 @@ const Education = () => {
           eCloudValley for a coursework to create a book management system.
         </p>
       </div>
+
       <FaArrowsAltV className="text-black" />
-      <div className="w-[90%] max-w-screen-md bg-[#212A3E] hover:bg-white shadow-md rounded p-8 my-3 md:hover:scale-110 duration-500 border-dashed border-2 border-black">
+
+      <div className="w-[90%] max-w-screen-md bg-[#1F1717] hover:bg-white shadow-xl rounded-lg p-8 pb-4 my-3 md:hover:scale-110 duration-500 border-dashed border-2 border-black">
         <div className="flex justify-center items-center mb-4">
           {/* <div className="w-8 h-8 bg-black rounded-full flex items-center justify-center text-white font-bold text-xs mr-4">
             2019
@@ -57,7 +59,6 @@ const Education = () => {
           <br />
           <b> June 2020</b>
         </div>
-        {/* <p className="text-[#1a202c]"></p> */}
       </div>
     </div>
   );
