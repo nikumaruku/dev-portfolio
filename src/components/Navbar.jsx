@@ -1,7 +1,6 @@
 import React, { useState } from "react";
-import { FaBars, FaTimes} from "react-icons/fa";
+import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
-
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -14,7 +13,7 @@ const Navbar = () => {
       </div>
 
       {/* menu */}
-      <ul className="hidden md:flex underline decoration-indigo-500 hover:scale-110 duration-500">
+      <ul className="hidden md:flex hover:scale-110 duration-500">
         <li>
           <Link to="home" smooth={true} duration={500}>
             Home
