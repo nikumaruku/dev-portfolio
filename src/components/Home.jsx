@@ -55,7 +55,7 @@ const Home = () => {
         {/* Socials */}
         {isMobile && (
           <div className="grid grid-cols-2 pb-5">
-            <button className="rounded text-white text-xs group border-2 px-6 py-3 my-2 flex items-center bg-gradient-to-r from-gray-700 via-gray-900 border-black hover:border-white justify-center">
+            <button className="rounded text-black text-xs group border-2 px-6 py-3 my-2 shadow-lg flex items-center bg-white  hover:border-white justify-center">
               <a
                 href="https://www.linkedin.com/in/nik-syahmi/"
                 className="mr-3 font-bold"
@@ -69,7 +69,7 @@ const Home = () => {
               </span>
             </button>
 
-            <button className="text-white text-xs group border-2 px-6 py-3 my-2 flex items-center bg-gradient-to-r from-gray-700 via-gray-900 border-black hover:border-white justify-center ">
+            <button className="text-black text-xs group border-2 px-6 py-3 my-2 flex items-center bg-white  hover:border-white justify-center ">
               <a
                 href="https://github.com/nikumaruku"
                 className="mr-3 font-bold"
@@ -83,7 +83,7 @@ const Home = () => {
               </span>
             </button>
 
-            <button className="text-white text-xs group border-2 px-6 py-3 my-2 flex items-center bg-gradient-to-r from-gray-700 via-gray-900 border-black hover:border-white justify-center ">
+            <button className="text-black text-xs group border-2 px-6 py-3 my-2 flex items-center bg-white  hover:border-white justify-center ">
               <a
                 href="mailto:niksyahmiirfan01@gmail.com"
                 className="mr-3 font-bold"
@@ -96,7 +96,7 @@ const Home = () => {
                 <HiOutlineMail />
               </span>
             </button>
-            <button className="text-white text-xs group border-2 px-6 py-3 my-2 flex items-center bg-gradient-to-r from-gray-700 via-gray-900 border-black hover:border-white justify-center ">
+            <button className="text-black text-xs group border-2 px-6 py-3 my-2 flex items-center bg-white  hover:border-white justify-center ">
               <a
                 href="https://docs.google.com/document/d/1o9GXQ8hMCXnbH-aZ7g0iLjfMPC0Tq1za479A3dj0J0Y/edit?usp=sharing"
                 className="mr-3 font-bold"
