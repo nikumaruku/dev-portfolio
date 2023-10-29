@@ -1,4 +1,3 @@
-import React from "react";
 import ProfilePicture from "../assets/profile-pic.png";
 import Slider from "react-slick";
 
@@ -12,7 +11,7 @@ const About = () => {
     zIndex: 0,
     responsive: [
       {
-        breakpoint: 768, // Adjust this breakpoint as needed
+        breakpoint: 768,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -24,21 +23,14 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-full md:h-screen bg-black text-gray-300 border-2 border-white"
+      className="w-full md:h-screen bg-[#FCF5ED] text-gray-300 border-2 border-white"
     >
       <div className="flex flex-col justify-center items-center w-full h-full">
-        {/* <div className="md:text-left pb-8 justify-center items-center pt-8">
-          <p className="text-xl md:text-4xl font-bold inline text-[#9BA4B5]">
+        <div className="pt-8 pb-8 flex flex-col justify-center items-center space-y-5">
+          <p className=" text-xl font-bold inline border-b-4 border-[#9BA4B5]-600 text-black">
             About
           </p>
-          <p className="text-center text-sm text-[#9BA4B5]">Discover more about me!</p>
-        </div> */}
-
-        <div className="pt-8 pb-8 border-2 border-black flex flex-col justify-center items-center space-y-5">
-          <p className=" text-xl font-bold inline border-b-4 border-[#9BA4B5]-600 text-[#9BA4B5]">
-            About
-          </p>
-          <p className="text-center text-sm text-[#9BA4B5]">
+          <p className="text-center text-sm text-black">
             Discover more about me!
           </p>
         </div>
@@ -55,8 +47,8 @@ const About = () => {
 
           <div className="w-[95%] py-5">
             <Slider {...settings}>
-              <div className="w-[95%] max-w-screen-md bg-[#212A3E] shadow-md rounded p-8 my-3 md:hover:scale-110 duration-500 border-solid border-2 border-black">
-                <p className="text-white text-xs text-center ">
+              <div className="w-[95%] max-w-screen-md bg-white shadow-xl rounded p-8 my-3 border-solid border-2 border-black">
+                <p className="text-black text-xs text-center ">
                   I am a 22 years old, software engineering student who loves
                   getting into the nitty-gritty of software development. This
                   passion of mine blooms during high school when I was tasked to
@@ -67,8 +59,8 @@ const About = () => {
                   whatever resources I could find online at that time.
                 </p>
               </div>
-              <div className="w-[95%] max-w-screen-md bg-[#212A3E] shadow-md rounded p-8 my-3 md:hover:scale-110 duration-500 border-solid border-2 border-black">
-                <p className="text-white text-xs text-center ">
+              <div className="w-[95%] max-w-screen-md bg-white shadow-md rounded p-8 my-3 border-solid border-2 border-black">
+                <p className="text-black text-xs text-center ">
                   During my study in college, I was involved in various
                   courseworks which helped introduced me to the foundations of
                   web development in which we were tasked to build website using
@@ -79,8 +71,8 @@ const About = () => {
                   abundance of learning resources available online.
                 </p>
               </div>
-              <div className="w-[95%] max-w-screen-md bg-[#212A3E] shadow-md rounded p-8 my-3 md:hover:scale-110 duration-500 border-solid border-2 border-black">
-                <p className="text-white text-xs text-center ">
+              <div className="w-[95%] max-w-screen-md bg-white shadow-md rounded p-8 my-3 border-solid border-2 border-black">
+                <p className="text-black text-xs text-center ">
                   As fun as learning by yourself seems, I believe there in so
                   much more to discover and explore in order for me to continue
                   developing myself as a competent developer. I also believe
